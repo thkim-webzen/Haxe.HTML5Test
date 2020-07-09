@@ -1,0 +1,90 @@
+{
+	"id":9999,
+	"name": "Minislot",
+	"symbols":[
+		{ "name": "m11", "ox":0, "oy":0 },
+		{ "name": "m12", "ox":0, "oy":0 },
+		{ "name": "m13", "ox":0, "oy":0 },
+		{ "name": "m14", "ox":0, "oy":0 },
+		{ "name": "m21", "ox":0, "oy":0 },
+		{ "name": "m22", "ox":0, "oy":0 },
+		{ "name": "m23", "ox":0, "oy":0 },
+		{ "name": "m24", "ox":0, "oy":0 },
+		{ "name": "m31", "ox":0, "oy":0 },
+		{ "name": "m32", "ox":0, "oy":0 },
+		{ "name": "m33", "ox":0, "oy":0 },
+		{ "name": "m34", "ox":0, "oy":0 },
+		{ "name": "m41", "ox":0, "oy":0 },
+		{ "name": "m42", "ox":0, "oy":0 },
+		{ "name": "m43", "ox":0, "oy":0 },
+		{ "name": "m44", "ox":0, "oy":0 }
+	],
+	"matrix": [
+		{ "row":1, "x":0,   "y":0 },
+		{ "row":1, "x":67, "y":0 },
+		{ "row":1, "x":134, "y":0 }
+	],
+	"betlines":1,
+	"profile": {
+		"high":{ "width":50, "height":50, "oy":0, "initx":177, "inity":273 },
+		"low": { "width":50, "height":50, "oy":0, "initx":177, "inity":273 }
+	},
+	"spin":{
+		"runtime":1300,
+		"beginoffset":[0,0,0,0,0],
+		"symbols":22,
+		"stopoffset":[0,350,700,1050,1300]
+	},
+	
+	"sc":[0,2,4],
+	
+	"start":[
+	   ["m11","m11","m11","m11"],
+	   ["m21","m21","m21","m21"],
+	   ["m31","m31","m31","m31"]
+	],
+	
+	"paylines":[
+		{ "line": 1, "idx": [0,0,0] }
+	],
+	
+	"assets":{
+		"outer": { "path":"minislot/outer.png", "x":0, "y":0 },
+		"inner": [
+		],
+		"innert":[
+		],
+		"balance": {
+			"bg": { "path":"", "x":0, "y":0 },
+			"tf": { "name":"OpenSans-Bold.ttf", "x":0, "y":0, "len":0, "color":0, "size":0, "type":"font", "comma":0 }
+		},
+		"prize":{
+			"bg": { "path":"", "x":0, "y":0 },
+			"tf": { "name":"digital7_italic.ttf", "x":157, "y":380, "len":122, "color":15081003, "size":24, "type":"font", "comma":0 }
+		},
+		"stake":{
+			"bg": { "path":"", "x":0, "y":0 },
+			"tf": { "name":"", "x":0, "y":0, "len":0, "color":0, "size":0, "type":"font", "comma":0 }
+		},
+		"betting":{
+			"bg": { "path":"", "x":0, "y":0 },
+			"tf": { "name":"", "x":0, "y":0, "len":0, "color":0, "size":0, "type":"font", "comma":0 }
+		},
+		
+		"plusbet": { "path":"minislot/no", "x":0, "y":0, "sound":"", "remove":0 },
+		"minusbet":{ "path":"minislot/no", "x":0, "y":0, "sound":"", "remove":0 },
+		"btnspin": { "path":"minislot/btn_free_spin", "x":156, "y":427, "sound":"luckybonus_btn_spin", "remove":0 },
+		"auto":    { "path":"minislot/no", "x":0, "y":0, "sound":"", "remove":0 },
+		"option":  { "path":"minislot/no", "x":0, "y":0, "sound":"", "remove":0 },
+		"paytable":{ "path":"minislot/no", "x":0, "y":0, "sound":"", "remove":0 }
+	},
+
+	"paytable": {
+		"bg": { "path":"0", "x":0, "y":0 },
+		"prev": { "path":"0", "x":0, "y":0 },
+		"exit": { "path":"0", "x":0, "y":0 },
+		"next": { "path":"0", "x":0, "y":0 },
+		"offset": { "x":0, "y":0 },
+		"pages":[]
+	}
+}

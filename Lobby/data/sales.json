@@ -1,0 +1,9 @@
+{
+	"sales": {
+		"bg": { "path":"sales/bg_santa.png", "x":631, "y":104 },
+		"value": { "value" : null },
+		"exit": { "path":"sales/btn_x_blue", "x":514, "y":112, "sound":"mouse_click", "remove":0 },
+		"buybtn": { "path":"sales/btn_get", "x":229, "y":528, "sound":"mouse_click", "remove":0 },
+		"buybtnAni" : { "info": null, "ani": null, "stop": null }
+	}
+}
